@@ -1,0 +1,139 @@
+
+@media(max-width:768px){
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+      background-image: url(download\ \(2\).jpeg);
+      background-size: cover;
+    }
+    header{
+      width: 100%;
+      height: 60px;
+      display: flex;
+      justify-content: space-around;
+      font-family: 'Inclusive Sans', sans-serif;
+      background-color: #ffffff5b;
+    }
+    header .content h2{
+      font-size: 20px;
+    }
+    header .content{
+      width: max-content;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    header .content input{
+      padding: 3px;
+      width: 170px;
+      height: 30px;
+      border: none;
+      border-radius: 5px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    .content button{
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      background-color: #272829;
+      border: none;
+      border-radius: 5px;
+      padding: 3px;
+    }
+    header .content i{
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+      
+    }
+    #sidebar{
+      position: fixed;
+      top: 60px;
+      bottom: 0;
+      left: -300px;
+      width: 200px;
+      transition: .3s;
+      background-color: #ffffffc7;
+    }
+    
+    #sidebar a{
+        font-family: 'Open Sans', sans-serif;
+        text-decoration: none;
+    }
+    #sidebar ul{
+      border: 1px solid white;
+    }
+    #sidebar ul a li{
+        color: black;
+        list-style: none;
+        border: 1px solid white;
+    }
+    #sidebar ul li{
+        padding: 24px;
+        transition: .3s;
+        transition-property: backround-color;
+    }
+    #sidebar ul li:hover{
+        background-color: #9a002c;
+    }
+    /* .isi{
+      border: 1px solid;
+    } */
+    .isi .date{
+      color: white;
+      display: flex;
+      justify-content: center;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      margin-top: 15px;
+    }
+    .date h1{
+      color: white;
+    }
+    .date p{
+      font-size: 24px;
+      top: -10px;
+    }
+
+    /* bagian benner */
+    .benner{
+      border-radius: 7px;
+      background-color: #7091F5;
+      margin: 12px;
+      padding: 10px ;
+    }
+    .benner .text{
+      gap: 5px;
+      display: flex;
+      justify-content: center;
+    }
+    .benner .text p{
+      font-family: 'Raleway', sans-serif;
+      font-size: 12px;
+      color: white;
+    }
+    .benner .text i{
+      color: black;
+    }
+    .benner .fill{
+      margin-top: 13px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+    .benner .fill span{
+      color: white;
+      font-family: 'Nunito', sans-serif;
+    }
+    .benner .fill p{
+      font-size: 10px;
+      font-family: 'Nunito', sans-serif;
+    }
+    .benner .fill .box{
+      text-align: center;
+    }
+    
+  
+} 
+
+
